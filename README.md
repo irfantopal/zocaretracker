@@ -55,12 +55,12 @@
 
 The corona patients in quarantine aren't monitored and a sudden death will be found after long time as it would look normal if they wouldn't go outside for a long time bacuse they're in the quarantine.
 
-That' why i created a device which can
+That's why i created a device which can
 * monitor the patients pulse
 * watch if the patient falls
 * call emergency if the patients feels bad
 
-These project was made for the application process of the Kulturakademi by me.
+This project was made for the application process of the Kulturakademie by me.
 
 ### Built With
 
@@ -97,9 +97,9 @@ Here is the schematic for the project (10 is 10k resistor, 11 is 1k and 12 is 2k
    ```ssh
    cd zocaretracker/client
    ```
-   Edit the options in the file regarding your setup.
+   Edit the options in the file regarding your setup.<br>
    Install the zocaretracker-client.ino to your Arduino using your favourite software.
-3. Switch to server folder and build the server and later start it.
+3. Switch back to server folder, build the server and later start it.
    I've added example code to save the data to a MySQL database, you can uncomment and use it, don't forget to change the credentials!
    ```sh
    cd ../server
@@ -120,6 +120,7 @@ Current features under development:
 Upcoming features:
 * TCP alternative for more secure data transfer
 * View live ECG graph (my ESP01S couldnt handle that much packets, I've ordered a new one and will report the status soon)
+* Automatically detect the highest ECG value and count the pulse with that (currently it checks a hard coded value and if the R interval is above that value it counts as a heart beart, check ECG intervals to learn more about what's R etc.)
 * Suggest more by creating an issue!
 
 <!-- LICENSE -->
@@ -137,6 +138,8 @@ Project Link: [https://github.com/irfantopal/zocaretracker/](https://github.com/
 ## Acknowledgements
 * [Stiftung Kinderland](https://www.stiftung-kinderland.de/)
 * [Socket Example](http://matrixsust.blogspot.com/)
+* [WiFiESP Library](https://github.com/bportaluri/WiFiEsp)
+* [MPU6050 Library](https://github.com/jarzebski/Arduino-MPU6050)
 
 [contributors-shield]: https://img.shields.io/github/contributors/irfantopal/zocaretracker.svg?style=for-the-badge
 [contributors-url]: https://github.com/irfantopal/zocaretracker/graphs/contributors

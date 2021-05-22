@@ -93,12 +93,12 @@ Here is the schematic for the project (10 is 10k resistor, 11 is 1k and 12 is 2k
    ```sh
    git clone https://github.com/irfantopal/zocaretracker.git
    ```
-4. Switch to client folder and install the code to your Arduino.
+4. Switch to client folder and upload the code to your Arduino.
    ```ssh
    cd zocaretracker/client
    ```
-   Edit the options in the file regarding your setup.<br>
-   Install the zocaretracker-client.ino to your Arduino using your favourite software.
+   Edit the options in the `zocaretracker-client.ino` file regarding your setup.<br>
+   Upload the `zocaretracker-client.ino` to your Arduino using your favourite software.
 3. Switch back to server folder, build the server and later start it.
    I've added example code to save the data to a MySQL database, you can uncomment and use it, don't forget to change the credentials!
    ```sh
@@ -106,7 +106,7 @@ Here is the schematic for the project (10 is 10k resistor, 11 is 1k and 12 is 2k
    g++ zocaretracker-server.cpp -o server -lmysqlcppconn
    ./server
    ```
-Now you're ready to go! Put on the ECG pads and you should see the data coming to your server soon.
+Now you're ready to go! Put on the ECG pads (check <a href="#acknowledgements">acknowledgements</a> to see the placement) and you should see the data coming to your server soon.
 
 ## Usage
 
@@ -120,7 +120,7 @@ Current features under development:
 Upcoming features:
 * TCP alternative for more secure data transfer
 * View live ECG graph (my ESP01S couldnt handle that much packets, I've ordered a new one and will report the status soon)
-* Automatically detect the highest ECG value and count the pulse with that (currently it checks a hard coded value and if the R interval is above that value it counts as a heart beart, check ECG intervals to learn more about what's R etc.)
+* Automatically detect the highest ECG value and count the pulse with that (currently it checks a hard coded value and if the R interval is above that value it counts as a heart beart, check <a href="#acknowledgements">acknowledgements</a> to learn more about what's R etc.)
 * Suggest more by creating an issue!
 
 <!-- LICENSE -->
@@ -140,6 +140,10 @@ Project Link: [https://github.com/irfantopal/zocaretracker/](https://github.com/
 * [Socket Example](http://matrixsust.blogspot.com/)
 * [WiFiESP Library](https://github.com/bportaluri/WiFiEsp)
 * [MPU6050 Library](https://github.com/jarzebski/Arduino-MPU6050)
+<br>
+![ZoCareTrackerECGPlacement][zocaretracker-ecgplacement]
+Check the labeling on your cables. In my case the green one was labeled as R.
+![ZoCareTrackerECGInterval][zocaretracker-ecginterval]
 
 [contributors-shield]: https://img.shields.io/github/contributors/irfantopal/zocaretracker.svg?style=for-the-badge
 [contributors-url]: https://github.com/irfantopal/zocaretracker/graphs/contributors
@@ -155,3 +159,5 @@ Project Link: [https://github.com/irfantopal/zocaretracker/](https://github.com/
 [linkedin-url]: https://linkedin.com/in/irfantopal
 [zocaretracker-photo]: images/photo-1.jpg
 [zocaretracker-schematic]: images/photo-2.png
+[zocaretracker-ecgplacement]: images/photo-3.png
+[zocaretracker-ecginterval]: images/photo-4.png

@@ -51,7 +51,7 @@
 
 ## About The Project
 
-[![ZoCareTrackerPhoto][zocaretracker-photo]]
+![ZoCareTrackerPhoto][zocaretracker-photo]
 
 The corona patients in quarantine aren't monitored and a sudden death will be found after long time as it would look normal if they wouldn't go outside for a long time bacuse they're in the quarantine.
 
@@ -85,7 +85,7 @@ You will need different microcontrollers and sensors, but don't worry they're ch
 * Linux server (You can use VM or ubuntu filesystem on windows, you need to be able to compile c++ and you also need the `libmysqlclient-dev` package)
 
 Here is the schematic for the project (10 is 10k resistor, 11 is 1k and 12 is 2k). Please check again before powering it up, I'm not responsible for any broken parts.
-[![ZoCareTrackerSchematic][zocaretracker-schematic]]
+![ZoCareTrackerSchematic][zocaretracker-schematic]
 
 ### Installation
 

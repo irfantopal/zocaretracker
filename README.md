@@ -53,9 +53,9 @@
 
 ![ZoCareTrackerPhoto][zocaretracker-photo]
 
-The corona patients in quarantine aren't monitored and a sudden death will be found after long time as it would look normal if they wouldn't go outside for a long time bacuse they're in the quarantine.
+The corona patients in quarantine aren't monitored and a sudden death will be found after long time as it would look normal if they wouldn't go outside for a long time because they're in the quarantine.
 
-That's why i created a device which can
+That's why I created a device which can
 * monitor the patients pulse
 * watch if the patient falls
 * call emergency if the patients feels bad
@@ -116,6 +116,7 @@ The pulse will be sent every minute. The dasboard to see the data will be added 
 
 Current features under development:
 * Dashboard (est. 26.5.21)
+* Automatic abnormal pulse detection (est. 26.5.21) 
 
 Upcoming features:
 * TCP alternative for more secure data transfer

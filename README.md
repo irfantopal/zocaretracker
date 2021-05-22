@@ -140,7 +140,7 @@ Project Link: [https://github.com/irfantopal/zocaretracker/](https://github.com/
 * [Socket Example](http://matrixsust.blogspot.com/)
 * [WiFiESP Library](https://github.com/bportaluri/WiFiEsp)
 * [MPU6050 Library](https://github.com/jarzebski/Arduino-MPU6050)
-<br>
+
 ![ZoCareTrackerECGPlacement][zocaretracker-ecgplacement]
 Check the labeling on your cables. In my case the green one was labeled as R.
 ![ZoCareTrackerECGInterval][zocaretracker-ecginterval]

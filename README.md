@@ -82,7 +82,7 @@ You will need different microcontrollers and sensors, but don't worry they're ch
 * 2x Button
 * 2x 10k Ohm resistor
 * 1k & 2k Ohm resistor (They're required for the voltage divider, you can also use a voltage regulator which is better)
-* Linux server (You can use VM or ubuntu filesystem on windows, you need to be able to compile c++ and you also need the `libmysqlclient-dev` package)
+* Linux server (You can use VM or ubuntu subsystem on windows, you need to be able to compile c++ and you also need the `libmysqlclient-dev` package)
 
 Here is the schematic for the project (10 is 10k resistor, 11 is 1k and 12 is 2k). Please check again before powering it up, I'm not responsible for any broken parts.
 ![ZoCareTrackerSchematic][zocaretracker-schematic]

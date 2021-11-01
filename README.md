@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Irfan Topal - [Founder of Legzo Team](https://legzo.irfantopal.com) - hello@irfantopal.com
+Irfan Topal - [Founder of Legzo Team](https://legzo.team) - hello@irfantopal.com
 
 Project Link: [https://github.com/irfantopal/zocaretracker/](https://github.com/irfantopal/zocaretracker/)
 

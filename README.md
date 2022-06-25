@@ -17,7 +17,7 @@
     <a href="https://github.com/irfantopal/zocaretracker"><strong>Explore the project »</strong></a>
     <br />
     <br />
-    <a href="https://zocaretracker.tk">Visit website</a>
+    <a href="https://zocare.tk">Visit website</a>
     ·
     <a href="https://github.com/irfantopal/zocaretracker/issues">Report Bug</a>
     ·
